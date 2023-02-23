@@ -1,0 +1,13 @@
+MFD_ENGINE_COMPANIES_LIST = [
+    f'E{i}' for i in range(1,60)
+]
+
+MFD_TRUCK_COMPANIES_LIST = [
+    f'T{i}' for i in range(1,60)
+]
+
+MFD_UNIT_COMPANIES_LIST = [
+    f'U{i}' for i in range(1,60)
+]
+
+ALL_MFD_COMPANIES = MFD_TRUCK_COMPANIES_LIST + MFD_ENGINE_COMPANIES_LIST + MFD_UNIT_COMPANIES_LIST
